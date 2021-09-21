@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 295px;
+    height: 184px;
+}
+label, img{
+    margin-left: 60px;
+}
+
+.grid{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 10px 0px 0px 22%;
+}
+
+.half{
+    display: flex;
+}
+
+.appHeader{
+    padding-top: 300px;
+    padding-left: 10px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #2a9d8f;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    position: -webkit-sticky;
+    top: 0;
+}
